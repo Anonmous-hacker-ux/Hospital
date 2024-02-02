@@ -1,18 +1,19 @@
+body{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 40%, rgba(255,0,74,1) 54%);
+}
 .navbar{
     border: 1px solid black;
     border-radius: 0px 10px 0px 10px;
     background-color: white;
     display: flex;
-    background: linear-gradient(to right, rgba(106, 17, 203, 0.9), rgba(37, 117, 252, 0.9));
-
+    background: rgb(111,21,36);
+    background: linear-gradient(90deg, rgba(111,21,36,1) 0%, rgba(197,33,58,1) 47%, rgba(3,0,255,1) 59%);    justify-content: space-between;
 }
 ul{
     display: flex;
     justify-content: space-around;
     margin-left: 70px;
-    
-}
-.home:hover{
     
 }
 img{
@@ -23,8 +24,8 @@ img{
     top: 5px;
     left: 5px;
 }
-img:hover{
-    transform: rotateX('180deg');
+.search{
+    margin-right: 40px;
 }
 a{
     text-decoration: none;
