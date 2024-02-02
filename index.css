@@ -1,0 +1,38 @@
+.navbar{
+    border: 1px solid black;
+    border-radius: 0px 10px 0px 10px;
+    background-color: white;
+    display: flex;
+    background: linear-gradient(to right, rgba(106, 17, 203, 0.9), rgba(37, 117, 252, 0.9));
+
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 70px;
+    
+}
+.home:hover{
+    
+}
+img{
+    border-radius: 0px 0px 0px 10px;
+    height: 40px;
+    width: 170px;
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+img:hover{
+    transform: rotateX('180deg');
+}
+a{
+    text-decoration: none;
+    color: white;
+
+}
+li{
+    list-style-type: none;
+    margin-left: 30px;
+   
+}
